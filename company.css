@@ -1,0 +1,307 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+ }
+ .big{
+     width: 100%;
+     height: 930px;
+     display: grid;
+     grid-template-columns:1fr ;
+     grid-template-rows:0.35fr 0.7fr 2fr  0.7fr  ;
+ }
+ .box1{
+    border: 0px solid green;
+    display: grid;
+    grid-template-columns:1.5fr  1.6fr 1.7fr 1.8fr 2fr 3fr  ;
+    grid-template-rows: 1fr;
+    background-color: #434242;
+}
+.dog1{
+    border: 0px solid orange; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.knopki{
+    font-size: 1.8vw;
+    font-family: SEGOE SCRIPT;
+    color: white;
+    text-decoration: dashed;  
+}
+.zz{
+    width: 5%;
+    height: 5%;
+    position: relative;left: -55%;top: -3%;
+}
+.zzz{
+    width: 64px;
+    height: 64px;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.span{
+    color: #FB8D07;
+}
+.z{
+    font-size: 0.6vw;
+    font-family: SEGOE SCRIPT;
+    color: white;
+    text-decoration: dashed;  
+}
+.korzina{
+    width: 100%;
+    height: 100%;
+}
+.box2{
+    border: px solid green;
+    display: grid;
+    grid-template-columns: 1.0fr 1.0fr 3.5fr 1.5fr  ;
+    grid-template-rows: 1fr;
+}
+.dog2{
+    border: 0px solid orange;
+    display: grid;
+    grid-template-columns:1fr  ;
+    grid-template-rows: 2fr 1fr;
+}
+.cat2{
+    border: 0px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo1{
+    width: 144px;
+    height: 100px;
+}
+.text1{
+    font-size: 0.8vw;
+    color: #FB8D07;
+    font-family: SEGOE SCRIPT;
+}
+
+.dog22{
+        border: 2px solid black;
+            display: grid;
+            grid-template-columns:1fr  ;
+ grid-template-rows: 2fr 1fr  ;
+ border-bottom: 0;
+ border-top: 0;
+ border-right: 0;
+    }
+    .cat22{
+     border: 0px solid red;
+         display: flex;
+            justify-content: start;
+            align-items: center;
+        }
+        .logo2{
+            width: 144px;
+            height: 100px;
+        } 
+            .text3{
+                font-size: 0.8vw;
+                color: #2B71CD;
+                font-family: SEGOE SCRIPT;
+            }
+            .text2{
+                font-size: 0.8vw;
+                color: #2B71CD;
+                font-family: SEGOE SCRIPT;
+            }
+            .dog222{
+                border: 0px solid black;
+                display: grid;
+                grid-template-columns:1fr  ;
+                grid-template-rows: 2fr 1fr  ;
+            }
+            .cat222{
+                border: 0px solid red;
+                display: flex;
+                justify-content: start;
+                align-items: center;
+            }
+            .text4{
+                font-size: 1.5vw;
+                font-family: SEGOE SCRIPT;
+                letter-spacing: 6px;
+        margin: 0 auto;
+            }
+            .text5{
+                font-size: 1vw;
+                font-family: SEGOE SCRIPT;
+                color: #2B71CD;
+            }
+            .dog2222{
+                border: 0px solid black;
+                display: grid;
+                grid-template-columns:1fr  ;
+                grid-template-rows: 1fr 1fr  ;
+            }
+            .cat2222{
+                border: 0px solid red;
+               display: grid;
+               grid-template-columns: 0.8fr 1.2fr;
+               grid-template-rows:1fr ;
+            }
+            .rat2{
+                border: 0px solid darkblue;
+                display: flex;
+                justify-content: end;
+                align-items: center;
+            }
+.foto100{
+    width: 42px;
+    height: 42px; 
+}
+.vx{ 
+    border: 0; 
+    background: none;
+    font-size: 1.5vw;
+    font-family: SEGOE SCRIPT;
+    color: #FB8D07;
+}
+.reg{ 
+    border: 0; 
+    background: none;
+    font-size: 1.5vw;
+    font-family: SEGOE SCRIPT;
+    color: #2B71CD;
+}
+.box3{
+    border: 0px solid green;
+    background-color: #2B71CD;
+    display: grid;
+    grid-template-columns:2fr 1fr ;
+    grid-template-rows: 0.5fr  1fr;
+}
+.dog3{
+    border: 0px solid orange;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.t1{
+    font-size: 1.0vw;
+    color: white;
+    font-family: SEGOE SCRIPT;
+}
+.t11{
+    font-size: 1.5vw;
+    color: white;
+    font-family: SEGOE SCRIPT;
+}
+.t2{
+    font-size: 1.0vw;
+    color: white;
+    font-family: SEGOE SCRIPT;
+}
+.cat3{
+    width: 80%;
+    height: 90%;;
+    border: 0px solid red;
+}
+.spann{
+    color: black;
+    font-size: 1.1vw;
+}
+.span2{
+    font-size: 1.4vw;
+}
+.span3{
+    font-size: 1.2vw;
+    color: #FB8D07;
+}
+
+
+
+
+.box4{
+    border: 2px solid green;
+}
+@media(max-width:600px){
+    .text3{
+     font-size: 2vw;
+     position: relative;left: -10%;
+    }}
+    @media(max-width:600px){
+        .text2{
+         font-size: 2vw;
+        }}
+        @media(max-width:600px){
+            .logo2{
+                width: 72px;
+                height: 52px;
+               }}
+               @media(max-width:600px){
+                .foto100{
+                    width: 22px;
+                    height: 22px;
+                   }}
+            @media(max-width:600px){
+                .text1{
+                 font-size: 2vw;
+                }}
+                @media(max-width:600px){
+                    .text5{
+                     font-size: 2vw;
+                    }}
+                @media(max-width:600px){
+                    .text4{
+                     font-size: 2vw;
+                    }}
+                @media(max-width:600px){
+                    .logo1{
+                     width: 82px;
+                     height: 62px;
+                    }}
+                    @media(max-width:600px){
+                        .z{
+                         font-size: 3vw;
+                        }}
+                        @media(max-width:600px){
+                            .reg{
+                           display: none;
+                            }}
+                            @media(max-width:600px){
+                                .vx{
+                               display: none;
+                                }}
+                                @media(max-width:600px){
+                                    .big{
+                                        width: 100%;
+                                        height: 600px;
+                                        display: grid;
+                                        grid-template-columns:1fr ;
+                                        grid-template-rows:0.35fr 0.1fr 0.5fr  0.3fr  ;
+
+                                       }}
+                                       @media(max-width:600px){
+                                        .box3{
+                                            display: grid;
+                                            grid-template-columns:0.5fr 0.5fr ;
+                                            grid-template-rows: 0.3fr  0.5fr;
+                                           }}
+                                           @media(max-width:600px){
+                                           .cat3{
+                                            width: 80%;
+                                            height: 75%;
+                                            border: 0px solid red;
+                                            position: relative;top: -8%;
+                                        }}
+                                        @media(max-width:600px){
+                                            .t1{
+                                             font-size: 3vw;
+                                            }}
+                                            @media(max-width:600px){
+                                                .t11{
+                                                 font-size: 3vw;
+                                                }}
+                                            @media(max-width:600px){
+                                                .t2{
+                                                 font-size: 2vw;
+                                                }}
